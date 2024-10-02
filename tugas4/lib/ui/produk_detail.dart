@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tokokita/model/produk.dart';
-import 'package:tokokita/ui/produk_form.dart';
+import 'package:tugas4/model/produk.dart';
+import 'package:tugas4/ui/produk_form.dart';
 
 class ProdukDetail extends StatefulWidget {
   Produk? produk;
@@ -16,7 +16,7 @@ class _ProdukDetailState extends State<ProdukDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Detail Produk Imam'),
+        title: const Text('Detail Produk Rafi'),
       ),
       body: Center(
         child: Column(

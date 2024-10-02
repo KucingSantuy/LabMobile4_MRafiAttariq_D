@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tokokita/model/produk.dart';
-import 'package:tokokita/ui/produk_detail.dart';
-import 'package:tokokita/ui/produk_form.dart';
+import 'package:tugas4/model/produk.dart';
+import 'package:tugas4/ui/produk_detail.dart';
+import 'package:tugas4/ui/produk_form.dart';
 
 class ProdukPage extends StatefulWidget {
   const ProdukPage({Key? key}) : super(key: key);
@@ -15,7 +15,7 @@ class _ProdukPageState extends State<ProdukPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('List Produk Imam'),
+        title: const Text('List Produk Rafi'),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 20.0),

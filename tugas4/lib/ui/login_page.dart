@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tokokita/ui/registrasi_page.dart';
+import 'package:tugas4/ui/registrasi_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login Imam'),
+        title: const Text('Login Rafi'),
       ),
       body: SingleChildScrollView(
         child: Padding(

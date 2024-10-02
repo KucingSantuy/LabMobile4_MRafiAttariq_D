@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tokokita/model/produk.dart';
+import 'package:tugas4/model/produk.dart';
 
 class ProdukForm extends StatefulWidget {
   Produk? produk;
@@ -44,7 +44,7 @@ class _ProdukFormState extends State<ProdukForm> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('${judul} Imam')),
+      appBar: AppBar(title: Text('${judul} Rafi')),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(8.0),

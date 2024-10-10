@@ -530,7 +530,7 @@ Dari halaman detail produk, pengguna dapat menekan tombol "DELETE" untuk menghap
 
 ### b. Konfirmasi Penghapusan
 
-<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/dialog_hapus.png'  height="500">
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/dialog_hapus.jpg'  height="500">
 
 Sebelum menghapus, aplikasi akan menampilkan dialog konfirmasi.
 

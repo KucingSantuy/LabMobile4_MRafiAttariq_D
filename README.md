@@ -8,6 +8,17 @@ Shift Baru: D
 
 Toko Kita adalah aplikasi Flutter untuk manajemen produk yang terintegrasi dengan backend API menggunakan CodeIgniter 4. Aplikasi ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada produk, serta fitur autentikasi.
 
+## Daftar Isi
+1. [Persiapan](#persiapan)
+2. [Proses Login](#proses-login)
+3. [Proses Registrasi](#proses-registrasi)
+4. [Menampilkan Daftar Produk](#menampilkan-daftar-produk)
+5. [Menambah Produk Baru](#menambah-produk-baru)
+6. [Melihat Detail Produk](#melihat-detail-produk)
+7. [Mengubah Produk](#mengubah-produk)
+8. [Menghapus Produk](#menghapus-produk)
+9. [Proses Logout](#proses-logout)
+
 
 ## Persiapan
 
@@ -28,7 +39,7 @@ Sebelum menjalankan aplikasi, pastikan Anda telah melakukan langkah-langkah beri
 
 ### a. Mengisi Form Login
 
-![Screenshot form login](docs/login.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/login.png'  height="500">
 
 Pengguna diminta untuk memasukkan email dan password pada form login.
 
@@ -67,7 +78,7 @@ Widget _passwordTextField() {
 
 ### b. Proses Autentikasi
 
-![Screenshot proses login](docs/proses_login.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/proses_login.png'  height="500">
 
 Setelah menekan tombol login, aplikasi akan mengirim permintaan ke API untuk melakukan autentikasi.
 
@@ -129,7 +140,7 @@ void _submit() {
 
 ### c. Hasil Login
 
-![Screenshot popup berhasil login](docs/sukses_login.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/sukses_login.png'  height="500">
 
 Setelah proses autentikasi, pengguna akan melihat popup yang menginformasikan hasil login.
 
@@ -137,7 +148,7 @@ Setelah proses autentikasi, pengguna akan melihat popup yang menginformasikan ha
 
 ### a. Mengisi Form Registrasi
 
-![Screenshot form registrasi](docs/regist.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/regist.png'  height="500">
 
 Pengguna diminta untuk mengisi nama, email, password, dan konfirmasi password.
 
@@ -163,7 +174,7 @@ Widget _namaTextField() {
 
 ### b. Proses Pengiriman Data Registrasi
 
-![Screenshot proses registrasi](docs/proses_regist.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/proses_regist.png'  height="500">
 
 Setelah menekan tombol registrasi, aplikasi akan mengirim data ke API.
 
@@ -218,7 +229,7 @@ void _submit() {
 
 ### c. Hasil Registrasi
 
-![Screenshot popup berhasil registrasi](docs/sukses_regist.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/sukses_regist.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil registrasi.
 
@@ -226,7 +237,7 @@ Pengguna akan melihat popup yang menginformasikan hasil registrasi.
 
 ### a. Halaman Utama Produk
 
-![Screenshot halaman daftar produk](docs/produk.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/produk.png'  height="500">
 
 Setelah login berhasil, pengguna akan diarahkan ke halaman utama yang menampilkan daftar produk.
 
@@ -301,7 +312,7 @@ class ProdukBloc {
 
 ### a. Membuka Form Tambah Produk
 
-![Screenshot form tambah produk](docs/tambah_produk.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/tambah_produk.png'  height="500">
 
 Pengguna dapat menambah produk baru dengan menekan ikon "+" di halaman utama.
 
@@ -331,7 +342,7 @@ Widget _kodeProdukTextField() {
 
 ### c. Proses Penyimpanan Produk Baru
 
-![Screenshot proses tambah produk](docs/proses_tambah.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/proses_tambah.png'  height="500">
 
 Setelah menekan tombol simpan, aplikasi akan mengirim data ke API.
 
@@ -387,7 +398,7 @@ simpan() {
 
 ### d. Hasil Penambahan Produk
 
-![Screenshot popup berhasil tambah produk](docs/sukses_tambah.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/sukses_tambah.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil penambahan produk.
 
@@ -401,7 +412,7 @@ Pengguna dapat melihat detail produk dengan menekan item produk di daftar.
 
 ### b. Halaman Detail Produk
 
-![Screenshot halaman detail produk](docs/detail_produk.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/detail_produk.png'  height="500">
 
 Halaman ini menampilkan informasi lengkap tentang produk yang dipilih.
 
@@ -452,7 +463,7 @@ class _ProdukDetailState extends State<ProdukDetail> {
 
 ### a. Membuka Form Ubah Produk
 
-![Screenshot form ubah produk](docs/ubah_produk.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/ubah_produk.png'  height="500">
 
 Dari halaman detail produk, pengguna dapat menekan tombol "EDIT" untuk membuka form ubah produk.
 
@@ -462,7 +473,7 @@ Form ubah produk akan terisi dengan data produk yang ada, dan pengguna dapat men
 
 ### c. Proses Penyimpanan Perubahan
 
-![Screenshot proses ubah produk](docs/proses_ubah.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/proses_ubah.png'  height="500">
 
 Setelah menekan tombol ubah, aplikasi akan mengirim data perubahan ke API.
 
@@ -507,7 +518,7 @@ ubah() {
 
 ### d. Hasil Perubahan Produk
 
-![Screenshot popup berhasil ubah produk](docs/sukses_ubah.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/sukses_ubah.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil perubahan produk.
 
@@ -519,7 +530,7 @@ Dari halaman detail produk, pengguna dapat menekan tombol "DELETE" untuk menghap
 
 ### b. Konfirmasi Penghapusan
 
-![Screenshot dialog konfirmasi hapus](docs/dialog_hapus.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/dialog_hapus.png'  height="500">
 
 Sebelum menghapus, aplikasi akan menampilkan dialog konfirmasi.
 
@@ -585,7 +596,7 @@ onPressed: () async {
 
 ### d. Hasil Penghapusan Produk
 
-![Screenshot popup berhasil hapus produk](docs/sukses_hapus.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/sukses_hapus.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil penghapusan produk.
 
@@ -593,7 +604,7 @@ Pengguna akan melihat popup yang menginformasikan hasil penghapusan produk.
 
 ### a. Memilih Menu Logout
 
-![Screenshot drawer dengan menu logout](docs/logout.png)
+<img src='https://github.com/KucingSantuy/LabMobile4_MRafiAttariq_D/blob/main/docs/logout.png'  height="500">
 
 Pengguna dapat mengakses menu logout dari drawer aplikasi.
 
